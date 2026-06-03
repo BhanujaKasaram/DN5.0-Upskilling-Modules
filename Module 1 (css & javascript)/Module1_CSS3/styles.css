@@ -1,0 +1,27 @@
+/* Header styles */
+
+.heading {
+    color: navy;
+    font-size: 24px;
+}
+
+/* Paragraph styles */
+
+p {
+    font-size: 18px;
+}
+/* Main CTA Button */
+
+.cta-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Footer Section */
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}

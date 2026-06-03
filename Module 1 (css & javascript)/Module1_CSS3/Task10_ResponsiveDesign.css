@@ -1,0 +1,24 @@
+ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+img{
+    width:300px;
+}
+
+@media screen and (max-width:768px){
+
+    ul{
+        flex-direction:column;
+    }
+
+    img{
+        width:50%;
+    }
+
+    body{
+        font-size:14px;
+    }
+}

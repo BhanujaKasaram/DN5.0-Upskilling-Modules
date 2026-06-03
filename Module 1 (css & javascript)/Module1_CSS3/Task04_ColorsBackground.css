@@ -1,0 +1,9 @@
+body{
+    background-color:rgba(173,216,230,0.8);
+}
+
+.section-title{
+    background:linear-gradient(to right,blue,purple);
+    color:white;
+    padding:10px;
+}
