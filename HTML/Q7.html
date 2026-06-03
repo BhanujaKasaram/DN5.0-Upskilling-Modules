@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<body onunload="return confirm('Leave page?')">
+
+<video
+width="400"
+controls
+oncanplay="ready()">
+
+<source src="videos/demo.mp4">
+
+</video>
+
+<p id="msg"></p>
+
+<script>
+
+function ready(){
+
+document.getElementById("msg")
+.innerHTML="Video ready to play";
+
+}
+
+</script>
+
+</body>
+</html>

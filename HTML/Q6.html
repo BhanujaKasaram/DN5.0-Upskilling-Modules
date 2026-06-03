@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+Phone:
+
+<input type="text"
+onblur="alert('Phone checked')">
+
+<br><br>
+
+<select onchange="showFee(this.value)">
+
+<option>Select</option>
+<option value="100">Music</option>
+<option value="200">Dance</option>
+
+</select>
+
+<p id="fee"></p>
+
+<img src="images/pic1.jpg"
+width="100"
+ondblclick="this.width='300'">
+
+<br><br>
+
+<textarea
+onkeyup="count()"
+id="txt"></textarea>
+
+<p id="count"></p>
+
+<button onclick="alert('Submitted')">
+Submit
+</button>
+
+<script>
+
+function showFee(x){
+
+document.getElementById("fee")
+.innerHTML="Fee="+x;
+
+}
+
+function count(){
+
+var t=
+document.getElementById("txt").value;
+
+document.getElementById("count")
+.innerHTML=t.length;
+
+}
+
+</script>
+
+</body>
+</html>

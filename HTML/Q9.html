@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<button onclick="findLocation()">
+
+Find Nearby Events
+
+</button>
+
+<p id="loc"></p>
+
+<script>
+
+function findLocation(){
+
+navigator.geolocation.getCurrentPosition(
+
+success,
+error,
+{
+enableHighAccuracy:true
+}
+
+);
+
+}
+
+function success(position){
+
+document.getElementById("loc")
+.innerHTML=
+
+position.coords.latitude
++
+"<br>"
++
+position.coords.longitude;
+
+}
+
+function error(){
+
+alert("Location unavailable");
+
+}
+
+</script>
+
+</body>
+</html>
